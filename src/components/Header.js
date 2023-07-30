@@ -1,15 +1,14 @@
-export function Header() {
+import React from "react";
+
+function Header() {
   return (
     <head>
-      <img src="littlelemon-front/src/icons_assets/Logo .svg" alt="Logo"></img>
+      <img src="" alt="Logo"></img>
       <title>Little Lemon</title>
       <meta property="og:title" content="Our Menu"></meta>
       <meta property="og:type" content="website"></meta>
-      <meta
-        property="og:image"
-        content="littlelemon-front/src/icons_assets/Logo .svg"
-      ></meta>
-      <meta property="og:url" content="https://littlelemon"></meta>
+      <meta property="og:image" content=""></meta>
+      <meta property="og:url" content=""></meta>
       <meta
         property="og:description"
         content="Little Lemon is a family-owned restaurant"
@@ -19,3 +18,5 @@ export function Header() {
     </head>
   );
 }
+
+export default Header;
