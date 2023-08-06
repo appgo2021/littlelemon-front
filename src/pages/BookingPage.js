@@ -28,7 +28,7 @@ function BookingPage() {
           Back to Home
         </button>
       </nav>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={() => handleSubmit}>
         <fieldset>
           <div>
             <label htmlFor="name">Name of Guests: </label>
@@ -95,7 +95,9 @@ function BookingPage() {
             ></input>
           </div>
 
-          <button type="submit">Confirm</button>
+          <button type="submit" onClick={() => navigate("/confirm")}>
+            Confirm
+          </button>
         </fieldset>
       </form>
     </div>
