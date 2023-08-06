@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -50,6 +50,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/appgo2021/littlelemon-front/issues"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
   },
   "homepage": "https://github.com/appgo2021/littlelemon-front#readme"
 }

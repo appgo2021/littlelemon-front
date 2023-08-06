@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Main() {
+  const navigate = useNavigate();
+
   return (
     <div style={{ padding: "10px" }}>
       <div
@@ -15,7 +18,7 @@ function Main() {
             accusamus exercitationem sit voluptatem labore et eveniet expedita
             est unde velit. Ea sunt doloremque aut dolor iste et porro
           </p>
-          <button>Reserve a table</button>
+          <button onClick={() => navigate("/booking")}>Reserve a table</button>
         </section>
         <img alt="Image of Food"></img>
       </div>

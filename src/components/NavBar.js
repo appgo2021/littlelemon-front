@@ -11,7 +11,7 @@ function NavBar() {
           padding: "5px",
         }}
       >
-        <img src="" alt="Icon"></img>
+        <img src="/assets/Logo.svg" alt="Icon"></img>
         <li>Home</li>
         <li>About</li>
         <li>Menu</li>
